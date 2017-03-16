@@ -1,0 +1,24 @@
+{
+  "name": "week13_friendfinder",
+  "version": "1.0.0",
+  "description": "app that takes in user input and returns their best match",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brigmanlp/week13_friendFinder.git"
+  },
+  "author": "brigmanlp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brigmanlp/week13_friendFinder/issues"
+  },
+  "homepage": "https://github.com/brigmanlp/week13_friendFinder#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2"
+  }
+}
