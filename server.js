@@ -1,6 +1,7 @@
 //Dependencies
 var express = require("express");
 var bodyParser = require("body-parser");
+var path = require("path");
 
 //Express Configuration
 var app = express();
@@ -11,6 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+app.use(express.static(path.join(__dirname, '/app/public')));
 
 //Router: points our server to the app route files
 require("./app/routing/apiRoutes")(app);

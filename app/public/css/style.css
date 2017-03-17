@@ -1,0 +1,29 @@
+body {
+    background-image: url("../img/greenfield.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron {
+    background-color: midnightblue;
+    margin-top: 15%;
+}
+
+.jumbotron>h1 {
+    color: white;
+}
+
+.jumbotron>h2 {
+    color: white;
+}
+
+p,
+h3,
+h4,
+label {
+    color: midnightblue;
+}
+
+small {
+    color: midnightblue;
+}
